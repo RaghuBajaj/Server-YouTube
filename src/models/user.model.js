@@ -25,13 +25,13 @@ const userSchema = new Schema(
             trim: true,
             index: true
         },
-        avatar:{
-            type: String,
-            // required: true,
-        },
-        coverImage:{
-            type: String,
-        },
+        // avatar:{
+        //     type: String,
+        //     required: true,
+        // },
+        // coverImage:{
+        //     type: String,
+        // },
         watchHistory:[
             {
                 type: Schema.Types.ObjectId,
